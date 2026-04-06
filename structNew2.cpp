@@ -19,8 +19,10 @@ int main() {
     orang mhs;
     cout << "Nama : " ;
     cin >> mhs.nama;
-    cout << "alamat : " ;
-    cin >> mhs.alamat;
+    cout << "alamat desa : " ;
+    cin >> mhs.alamat.desa;
+    cout << "alamat kota : " ;
+    cin >> mhs.alamat.kota;
     cout << "umur : " ;
     cin >> mhs.umur;
     cout << endl;
