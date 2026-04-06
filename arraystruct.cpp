@@ -42,8 +42,4 @@ int main() {
     cout << " umur : " << mhs[i].umur << endl;
     cout << endl;
     }
-    
-    
-  
-
 }
