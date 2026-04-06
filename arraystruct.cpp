@@ -29,6 +29,7 @@ int main() {
     cout << "umur : " ;
     cin >> mhs[i].umur;
     cout << endl;
+    cin.ignore();
     }
     
     // Tampilan
