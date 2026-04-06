@@ -23,7 +23,7 @@ int main() {
             cout << "Nama : " ;
     getline(cin, mhs.nama);
     cout << "alamat desa : " ;
-    getline(cin, mhs.alamat.desa);
+    getline(cin, mhs[i].alamat.desa);
     cout << "alamat kota : " ;
     getline(cin, mhs[i].alamat.kota);
     cout << "umur : " ;
