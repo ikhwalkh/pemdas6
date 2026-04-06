@@ -20,7 +20,7 @@ int main() {
 
     for (int i = 0; i <= 2; i++)
     {
-            cout << "Nama : " ;
+     cout << "Nama : " ;
     getline(cin, mhs[i].nama);
     cout << "alamat desa : " ;
     getline(cin, mhs[i].alamat.desa);
@@ -31,11 +31,19 @@ int main() {
     cout << endl;
     cin.ignore();
     }
+
+    for (int i = 0; i <= 2; i++)
+    {
+      // Tampilan
+      cout << " Data penduduk : " << endl;
+    cout << " Nama : " << mhs[i].nama << endl;
+    cout << " Desa : " << mhs[i].alamat.desa << endl;
+    cout << " Kota : " << mhs[i].alamat.kota << endl;
+    cout << " umur : " << mhs[i].umur << endl;
+    cout << endl;
+    }
     
-    // Tampilan
-    cout << " Nama : " << mhs.nama << endl;
-    cout << " Nama : " << mhs.alamat.desa << endl;
-    cout << " Nama : " << mhs.alamat.kota << endl;
-    cout << " Nama : " << mhs.umur << endl;
+    
+  
 
 }
