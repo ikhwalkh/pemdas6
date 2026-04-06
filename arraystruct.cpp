@@ -21,7 +21,7 @@ int main() {
     for (int i = 0; i <= 2; i++)
     {
             cout << "Nama : " ;
-    getline(cin, mhs.nama);
+    getline(cin, mhs[i].nama);
     cout << "alamat desa : " ;
     getline(cin, mhs[i].alamat.desa);
     cout << "alamat kota : " ;
