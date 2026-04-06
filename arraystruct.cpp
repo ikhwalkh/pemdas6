@@ -27,7 +27,7 @@ int main() {
     cout << "alamat kota : " ;
     getline(cin, mhs[i].alamat.kota);
     cout << "umur : " ;
-    cin >> mhs.umur;
+    cin >> mhs[i].umur;
     cout << endl;
     }
     
